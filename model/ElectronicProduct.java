@@ -1,7 +1,5 @@
 
 package model;
-
-
 public class ElectronicProduct extends Product {
     private String imei;
     private int warrantyPeriod;
@@ -14,6 +12,6 @@ public class ElectronicProduct extends Product {
 
     @Override
     public String getDetails() {
-        return "Electronic Product: " + name + ", Price: " + price + ", IMEI: " + imei + ", Warranty: " + warrantyPeriod + " months";
+        return "Electronic Product: " +name +", Price: " + price +", IMEI: "+imei+", Warranty: " +warrantyPeriod+" months";
     }
 }
